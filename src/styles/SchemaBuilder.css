@@ -1,0 +1,71 @@
+.schemaBuilderCard {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+/* Responsive layout styles */
+.mobileView {
+  display: none;
+}
+
+.desktopView {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .mobileView {
+    display: block;
+  }
+  
+  .desktopView {
+    display: none;
+  }
+}
+
+.schemaBuilderCardHead {
+  background: #e96c55;
+  color: white;
+}
+
+.builderContainer {
+  height: 100%;
+}
+
+.fieldsContainer {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.addFieldButton {
+  background-color: #e96c55;
+  border-color: #e96c55;
+}
+
+.jsonOutputContainer {
+  background: #fffaf0;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #e96c55;
+  height: 100%;
+  min-height: 300px;
+}
+
+.jsonOutputPre {
+  margin: 0;
+  font-size: 14px;
+  overflow-x: auto;
+  height: 100%;
+}
+
+.innerCard {
+  height: 100%;
+  background-color: #fffaf0;
+}
+
+.innerCardHead {
+  background-color: #e96c55;
+  color: white;
+}

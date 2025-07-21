@@ -1,0 +1,44 @@
+/* Basic styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Custom scrollbar for JSON output */
+pre::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Make cards equal height */
+.ant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* JSON formatting */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
